@@ -1,0 +1,10 @@
+-> To Add Student Data Details from file:
+
+-> Write Text File as test.txt file attached in the Project
+-> And in ( void add_std_file() ) Function
+-> Replace test.txt with Your Text File
+-> in the Line Have: fopen() Function
+
+EX:
+Before -> FILE* ptr = fopen("test.txt", "r");
+After  -> FILE* ptr = fopen("Your Text File", "r"); 
